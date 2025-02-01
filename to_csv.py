@@ -4,7 +4,7 @@ from data_process import CyclingDataProcessor
 def process(file_path, output_csv):
     processor = CyclingDataProcessor(file_path, output_csv)
     df = processor.process()
-    print(df)
+    return df
 
 
 if __name__ == '__main__':
