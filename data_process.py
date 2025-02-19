@@ -38,6 +38,9 @@ class CyclingDataProcessor:
         # Add a new row to summarize the overall total of all participants
         final_df["Overall Total"] = final_df.sum(axis=1)
 
+        # Transform rows to columns
+        final_df = final_df.transpose()
+
         final_df.to_csv(self.output_csv)
         return final_df
 
