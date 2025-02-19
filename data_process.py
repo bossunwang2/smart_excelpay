@@ -28,12 +28,12 @@ class CyclingDataProcessor:
         final_df = pd.concat(self.data_frames)
 
         # Fill missing values with 0 before summing
-        final_df = final_df.fillna(0)
+        # final_df = final_df.fillna(0)
 
         # Add a row to calculate total value for each participant
         total_row = final_df.sum(numeric_only=True).to_frame().T
-        total_row.index = ["Total For Each"]
-        final_df = pd.concat([final_df, total_row])
+        total_row.index = ["Total"]
+        final_df = pd.concat([total_row, final_df])
 
         # Add a new row to summarize the overall total of all participants
         final_df["Overall Total"] = final_df.sum(axis=1)
