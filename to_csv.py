@@ -8,6 +8,6 @@ def process(file_path, output_csv):
 
 
 if __name__ == '__main__':
-    file_path = "cycling_data_round2.txt"
-    output_csv = "cycling_data_round2.csv"
+    file_path = "cycling_data_round3.txt"
+    output_csv = "cycling_data_round3.csv"
     process(file_path, output_csv)

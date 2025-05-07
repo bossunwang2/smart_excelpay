@@ -1,0 +1,5 @@
+2025_04_08,Hana/Brenda/Chaihung/JJ/Bossun/CH/Arthur,200
+2025_04_15,Hana/Brenda/JJ/Bossun/CH/Arthur/Rex,200
+2025_04_22,Hana/HC/JJ/Bossun/Chaihung/Robin/Tingwei/CH/Rex/Angela/Ellen,175
+2025_04_29,Hana/JJ/Bossun/Ethan/CH/Arthur/Angela/Robin/Anny/Rex,175
+2025_05_06,Hana/Brenda/Bossun/JJ/CH/Rex,210
