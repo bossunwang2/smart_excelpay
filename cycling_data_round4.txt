@@ -1,0 +1,6 @@
+2025_05_13,Bossun/JJ/CH/Angela/Ethan/Arthur,210
+2025_05_20,Bossun/JJ/Ethan/Arthur/Rex,245
+2025_05_27,Brenda/Angela/JJ/Ethan/Arthur/Rex/CH/Bossun,175
+2025_06_03,Brenda/Ethan/JJ/Rex/CH/Bossun,210
+2025_06_10,Brenda/Hana/JJ/Rex/CH/Bossun/Arthur/Anny/Angela,175
+2025_06_17,Brenda/JJ/CH/Bossun/Arthur/Angela,210
