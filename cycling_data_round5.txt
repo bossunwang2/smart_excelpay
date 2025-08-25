@@ -1,0 +1,6 @@
+2025_06_24,JJ/CH/Andy/Robin,245
+2025_07_01,Brenda/Andy/CH/JJ/Rex,245
+2025_07_08,Brenda/Hana/Andy/CH/JJ/Bossun/Anny/Robin,150
+2025_07_15,Andy/CH/JJ/Bossun/Rex/Shaun,210
+2025_07_22,Andy/CH/Bossun/Brenda/Hana/Anny/JJ,200
+2025_07_29,Andy/CH/Bossun/JJ/Ethan/Rex,210
