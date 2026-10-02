@@ -1,0 +1,17 @@
+# Generated output (re-create with `python to_csv.py <round>`)
+*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ruff_cache/
+
+# IDE / tooling project files
+.idea/
+.vscode/
+.orca/
+
+# OS
+.DS_Store

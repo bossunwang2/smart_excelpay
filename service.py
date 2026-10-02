@@ -3,18 +3,24 @@ from flask import Flask
 from flask import jsonify
 from flask import request
 
+from to_csv import parse_round
 from to_csv import process
+from to_csv import round_paths
 
 app = Flask(__name__)
 # Enable pretty-printing of JSON in Flask
 app.config['JSONIFY_PRETTYPRINT_REGULAR'] = True
 
-# Load the CSV file into a DataFrame
-file_path = "cycling_data_round1.txt"
-output_csv = "cycling_data_round1.csv"
-process(file_path, output_csv)
-df = pd.read_csv(output_csv)
-df = df.astype('object')
+# DataFrame of the round being served, loaded on startup
+df = pd.DataFrame()
+
+
+def load_round(round_number):
+    # Load the CSV file into a DataFrame
+    file_path, output_csv = round_paths(round_number)
+    process(file_path, output_csv)
+    return pd.read_csv(output_csv).astype('object')
+
 
 # Endpoint to get all records
 @app.route('/records', methods=['GET'])
@@ -43,4 +49,5 @@ def query_records():
 
 
 if __name__ == '__main__':
+    df = load_round(parse_round("Serve the cycling data of a round for querying."))
     app.run(host='0.0.0.0', port=9487)
